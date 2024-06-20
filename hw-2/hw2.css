@@ -1,3 +1,5 @@
+
+
 .head-div-player-1{
     width: 80%;
     height: 400px;
@@ -30,4 +32,32 @@
     padding-left: 30%;
     margin-top: 10%;
     display: block;
+}
+
+
+
+
+.head-box-food{
+    padding-top: 50px;
+    display: flex;
+justify-content: space-around;
+    width: 100%;
+    height: 900px;
+    border: 1px solid black;
+    flex-wrap: wrap ;
+}
+.head-box-food div{
+    width: 350px;
+    height: 300px;
+    background: #225480;
+   border-radius: 20px;
+}
+.img{
+    margin-left: 25%;
+    width: 200px;
+    height: 200px;
+}
+.head-box-food div span h2{
+    font-size: 250%;
+    margin-left: 34%;
 }
