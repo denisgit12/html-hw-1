@@ -52,3 +52,43 @@
     font-style: normal;
 }
 
+.main{
+    font-size: 40px;
+}
+.widgets{
+    margin-left: 2.5vw;
+    margin-top: 10px;
+    width: 95vw;
+    height: 50vh;
+    background: #225480;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainWidgets{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin-left: 2.5vw;
+}
+.mainWidgets h3{
+    width: 30vw;
+    height: 40vh;
+    background: #225480;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    background: #225480;
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+    width: 95vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
