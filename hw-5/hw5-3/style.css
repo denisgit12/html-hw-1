@@ -91,7 +91,7 @@ header div{
     margin: 5vh 0;
     font-size: 30px;
 }
-p{
+.mainBoxContact p{
     align-items: center;
     width: 80%;
 }
