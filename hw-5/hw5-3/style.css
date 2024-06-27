@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    color: #365454;
+}
+/*-------------------header----------------------*/
+header{
+    font-family: "Orbitron", sans-serif;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+    width: 60%;
+}
+header nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #868181;
+    transition: 0.5s;
+    font-size: 18px;
+}
+header nav ul a:hover{
+    color: #051c13;
+    transition: 1s;
+}
+
+header div{
+    text-align: center;
+}
+/*--------------HOME------------------------------*/
+/*-------------------section----------------------*/
+.section-home{
+    font-family: "Orbitron", sans-serif;
+    height: 90vh;
+    background-image: url(img.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-text{
+    margin-top: 10vh;
+}
+.section-home p{
+    font-size: 20px;
+}
+.section-home h1{
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 10px 0;
+}
+.section-home button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+}
+.section-home button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+/********** Contact *****************/
+.mainBoxContact{
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 5vw;
+    height: 100vh;
+}
+.mainBoxContact h3{
+    margin: 5vh 0;
+    font-size: 30px;
+}
+p{
+    align-items: center;
+    width: 80%;
+}
+
+.box{
+    margin-top: 10vh;
+    width: 90vw;
+    gap: 5vw;
+    display: flex;
+}
+.box div{
+    width: 43vw;
+    height: 60vh;
+    /*background: #868181;*/
+}
+.boxContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.boxContact h4{
+    margin: 1vw 0;
+    font-size: 30px;
+}
+.logo{
+    margin: 2vw;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.logo a img{
+    width: 4vw;
+}
+.boxInput{
+    display: flex;
+    /*align-content: center;*/
+    /*justify-content: center;*/
+    flex-direction: column;
+}
+input{
+    margin: 3% 20%;
+    width: 60% ;
+
+        border-radius: 10px;
+        outline: 2px solid #FEBF00;
+        border: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #e2e2e2;
+        outline-offset: 3px;
+        padding: 10px 1rem;
+        transition: 0.25s;
+
+
+}
+input:focus {
+     outline-offset: 5px;
+     background-color: #fff
+ }
+.message{
+    height: 20%;
+}
+
+
+.boxInput button{
+    width: 70%;
+    margin-left: 15%;
+    height: 7%;
+
+
+
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .button-36:hover {
+        box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+        transition-duration: .1s;
+    }
+
+    @media (min-width: 768px) {
+        .button-36 {
+            padding: 0 2.6rem;
+        }
+    }
+
+
