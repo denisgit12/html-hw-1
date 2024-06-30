@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+.headerSlide1 {
+    width: 100vw;
+    height: 22vh;
+    background: #D9D9D9;
+}
+
+.mainSlide1 {
+    width: 100vw;
+    height: 56vh;
+    background: #A4A4A4;
+}
+
+.mainDiv2 {
+    display: flex;
+
+}
+
+.aside2Background1 {
+    width: 27vw;
+    height: 56vh;
+    background: #C0BDBD
+}
+
+.section2Background2 {
+    width: 46vw;
+    height: 56vh;
+    background: #A4A4A4
+}
+
+
+.section3Background3 {
+    width: 46vw;
+    height: 28vh;
+}
+
+
+/***********************4*****************/
+.headerSlide4 {
+    width: 100vw;
+    height: 22vh;
+    background: #8D8484;
+}
+
+.footerSlide4 {
+    background: #BDBDBD;
+}
+
+.mainDiv4 {
+display: flex;
+}
+
+.content1{
+    color: white;
+    height: 19vh;
+    width: 73vw;
+    background: #776969;
+}
+.content2{
+    color: white;
+    height: 19vh;
+    width: 73vw;
+    background: #643030;
+}.content3{
+     color: white;
+     height: 19vh;
+     width: 73vw;
+     background: #441818;
+ }
+ .spam1{
+     width: 27vw;
+     height: 28.5vh;
+     background: #937575;
+ }
+.spam2{
+    width: 27vw;
+    height: 28.5vh;
+    background: #644C4C;
+}
+.flex{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
