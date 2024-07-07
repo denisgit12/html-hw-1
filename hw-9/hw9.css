@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainBox{
+    width: 100vw;
+    height: 100vh;
+    background: #1d8f95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginBox{
+    width: 40vw;
+    height: 50vh;
+    background: white;
+    border-radius: 10px;
+}
+.h2{
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background: #dfdfdf;
+}
+.boxForm{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    /*background: #868181;*/
+}
+label{
+    display: block;
+
+}
+.input{
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 30vw;
+    height: 4vh;
+    border: 1px solid black;
+}
+.boxSubmit{
+    margin-top: 3vh;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkbox{
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    margin-bottom: -3px;
+    border-radius: 20%;
+}
+.checkbox:checked{
+    background-size: cover;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB40lEQVR4nO3ZTYhPURjH8c/MeBcRCUUxJSkveclmorCwsJEiZWOHDVaabNhhZ0lKzZKVZKMoC2QhKWKBkpe85P01htGtn5qkZmj+M//D/e7uuec+5/ndc8/zPOdcampqampq/g8WYbHCmYX3eK1gWnAWPehSMFsj4jmmKJSpeBEhmxXMyYg4o2DWRcQbzFAo4/EgQrYrmKMRcQmtCmUlvuMz5imUkbiV2ehUMAcj4jqGK5SF+IJuLFUow3A1s3FIwXRGxD2MVShz8DGRao2CK9tzmY0qdxTLtoh4jIkKZTpeRcj6Rg40s8Fv6VREVBVuwxiHT3iI+Q2wvykiXmbP0TBacTqDVdO/YgBtT8KT2K52f4OSpI5lwKqA2zhAdrti83yi1qDQgn0ZuHsA9garki8+oN0QsBPfIujAX9oYg7uxsdsQsiVFXeXI8Xx6f8LhPHsFbYaY1Xgbh6rwObqfzy3Pp/k1J4ZNwTI8i5jLmNxH/xG4kf77NRntuBPnbvZxyvEzWNzGKE3INFyLk4+w4Dd95iZ0V4GiQxMzARd6ZemOX5LqxdyrFnoRBwYneiXODWnflbb7KXmKoA1H4ngVmfbiXa7XKpA9cb7nX/gNsCOL+2k/QnPTswSzh9qJmpqaGk3LD+G2d+p9GigPAAAAAElFTkSuQmCC");
+}
+.entry{
+    border-radius: 20px;
+    border: 1px solid #33633b;
+    width: 7vw;
+    height: 3vh;
+}
