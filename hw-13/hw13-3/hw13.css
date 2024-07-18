@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul{
+    list-style-type: none;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+}
+header ul a{
+    color: #000;
+    text-decoration: none;
+}
+main{
+    height: 85vw;
+    background: #FBF6F3;;
+}
+.mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    margin-top: 6vh;
+    height: 69vh;
+}
+.boxImg img{
+    width: 100%;
+}
+.boxDescription{
+    margin-left: 42px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    width: 22vw;
+    height: 69vh;
+    flex-direction: column;
+}
+.boxDescription h2{
+    font-size: 48px;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.boxDescription h3{
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #AD0306;
+    font-size: 36px;
+    margin-top: 4vh;
+}
+.size{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    margin-top: 4vh;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.boxDescription p{
+    padding-top: 48px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.mainBoxShoes{
+    background: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h3{
+
+    width: 23vw;
+    align-items: center;
+    color: #142823;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.boxShoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+}
+.shoes{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(139, 139, 139, 0.10);
+}
+
+h4{
+    color: #282828;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.shoes:nth-child(even) {
+    color: #106FDF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.shoes:nth-child(odd){
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #000000;
+}
+.highlyRated{
+    position: absolute;
+    top: -20px;
+}
