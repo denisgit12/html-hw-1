@@ -1,0 +1,26 @@
+@media screen and  (min-width:0) and (max-width: 480px){
+    .boxA{
+        height: 10vh;
+
+    }
+    .mainBoxB{
+        width: 96vw;
+        height: 44vh;
+    }
+   .mainBoxBAndF{
+       width: 100vw;
+       display: block;
+   }
+
+   .boxB{
+       width: 96vw;
+   }
+   .C{
+       width: 25vw;
+       height: 15vh;
+   }
+    .boxF{
+        height: 10vh;
+        width: 96vw;
+    }
+}

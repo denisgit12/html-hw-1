@@ -1,0 +1,34 @@
+.boxA{
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    border-radius: 10px;
+}
+.mainBoxAAndB{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxB{
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 69vw;
+    height: 50vh;
+    border-radius: 10px;
+
+}
+.boxC{
+    border-radius: 10px;
+
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29vw;
+    height: 50vh;
+}
