@@ -1,0 +1,645 @@
+
+
+
+body{
+    background: #02061A;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+}
+.boxBlur{
+    top: -300px;
+    left: -50px;
+    position: absolute;
+    width: 590px;
+    height: 594px;
+    background: rgba(84, 197, 173, 0.95);
+    filter: blur(217px);
+    z-index: 1;
+}
+
+nav{
+    margin-top: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav>a{
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 71px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*****   section-1   ********/
+.section-1{
+    margin-top: 188px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headBoxSection-1{
+    width: 990px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headBoxSection-1>div>h2{
+    width: 522px;
+    height: 233px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.buttonFirstSection-1{
+    width: 256px;
+    height: 95px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background: #23263C;
+}
+.buttonSecondSection-1{
+    width: 254px;
+    height: 95px;
+    flex-shrink: 0;
+    color: #FFF;
+    background: none;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 3px solid #23263C;
+}
+
+.headBoxSection-1>img{
+    width: 467.417px;
+    height: 461.312px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-top: -5vh;
+}
+
+
+
+/*****   section-2   ********/
+
+.section-2{
+    margin-top: 190px;
+
+}
+.headBoxSection-2{
+    width: 990px;
+    height: 165px;
+}
+.headBoxSection-2>h3{
+    margin: 0;
+    width: 238px;
+    height: 38px;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.divBoxSection-2{
+    margin-top: 8px;
+    width: 1065px;
+    height: 125px;
+    flex-shrink: 0;
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.5;
+
+}
+/*****  main-1  *******/
+
+.mainBoxFirst{
+    gap: 61px;
+    margin-top: 197px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 990px;
+    height: 565px;
+}
+.h3White{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.h3FontSize60{
+    font-size: 60px;
+
+}
+.h3Green{
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    /*font-weight: 700;*/
+}
+.h3FontSize40{
+    font-size: 40px;
+}
+.positionRelative{
+    position: relative;
+    margin-top: -1.4vh;
+}
+.h4Blue{
+    color: #4C99BB;
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+}
+.line{
+    height: 2px;
+    background: black;
+    text-decoration: line-through solid #ffffff 2px;
+
+}
+
+.arrow{
+    position: relative;
+    top: 1.3vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.spanForButton{
+    position: relative;
+}
+.buttonBuyNow{
+    top: -21px;
+    left: 5px;
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 126px;
+    height: 68px;
+    flex-shrink: 0;border-radius: 16px;
+    border: 1px solid #56CAB1;
+    background: none;
+}
+.buyNow{
+    margin-top: 11px;
+    z-index: 1;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 126px;
+    height: 68px;
+    flex-shrink: 0;border-radius: 16px;
+    border: 1px solid #56CAB1;
+    background: none;
+}
+
+.boxType{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 34px;
+    width: 521px;
+    height: 132px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #3A5B6A;
+}
+.boxType>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 132px;
+    gap: 18px;
+}
+.boxType>div>h5{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    /*padding-top: 18px;*/
+    /*margin-left: 28px;*/
+}
+
+
+/******   mainBoxSecond   *****/
+.mainBoxSecond{
+    margin-top: 175px;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 990px;
+    height: 565px;
+}
+
+.mainBoxSecond>div>h4{
+    display: flex;
+    width: 465px;
+    height: 212px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.mainBoxSecond>div>button{
+    background: #1F143B;
+    margin-top: 58px;
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 450px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+.mainBoxSecondImg{
+    position: relative;
+    display: flex;
+    margin-top: 75px;
+}
+.mainBoxSecondFirstImg{
+    width: 380.311px;
+    height: 466.66px;
+    transform: rotate(-25.337deg);
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    z-index: 0;
+    position: relative;
+}
+.mainBoxSecondFirstImg>img{
+    width: 380.121px;
+    height: 323.047px;
+    flex-shrink: 0;
+}
+.mainBoxSecondFirstImg>h3{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: #56CAB1;
+    width: 225.81px;
+    height: 46.022px;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: 30px   ;
+}
+.mainBoxSecondFirstImg>span{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.mainBoxSecondSecondImg{
+    margin-left: -7vw;
+    margin-top: 9vh;
+    /*position: relative;*/
+    z-index: 10;
+    width: 375px;
+    height: 507px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+
+}
+.mainBoxSecondSecondImg>h3{
+    margin-left: 30px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.mainBoxSecondSecondImg>span{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.mainBoxSecondSecondImg>button{
+    width: 147.461px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 2px solid #000;
+    background: #1F143B;
+    color: #52A7C6;
+    -webkit-text-stroke-color: #02061A;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 12px;
+}
+
+
+/****   mainBoxThird  ******/
+
+.mainHeadBoxThird{
+    margin-top: 230px;
+    height: 700px;
+    width: 1063px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainHeadBoxThird>h3{
+    color: #5BD2BF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.mainHeadBoxThird>h2{
+    color: #FFF;
+    width: 420px;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 4px;
+}
+
+.boxClients{
+    margin-top: 145px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 14px;
+}
+.firstClient{
+    width: 345px;
+    height: 360px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #24293F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.firstClient>h5{
+    margin-top: 20px;
+    color: #FFF;
+    width: 327px;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.firstClient>p{
+    margin-top: 27px;
+    color: #FFF;
+    width: 302px;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.firstClient>img{
+    position: absolute;
+    top: -80px;
+    z-index: 2;
+    width: 157.565px;
+    flex-shrink: 0;
+    filter: grayscale(100%);
+    border-radius: 50%  ;
+}
+
+/******** sectionBuyNow********/
+.sectionBuyNow{
+    margin-top: 208px;
+    width: 1063px;
+    height: 378px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+    display: flex;
+    flex-direction: column;
+}
+.boxSpan{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sectionBuyNow>div>span{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+    width: 300px;
+}
+.sectionBuyNow>button{
+    width: 344px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #000;
+    margin-top: 39px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    text-transform: uppercase;
+}
+
+/***** footer*******/
+.footer{
+    margin-top: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headBoxFooter{
+    width: 1100px;
+    height: 150px;
+    display: flex;
+    gap: 126px;
+    align-items: start;
+    justify-content: start;
+}
+.boxCrypto>h4{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-decoration: line-through solid #ffffff 1px;
+}
+.boxH4{
+    margin-bottom: 19px;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.boxH5{
+    margin-bottom: 22px;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 253px;
+    height: 60px;
+    border-radius: 50px;
+    background: #3B7C70;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: normal;*/
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+.button>span{
+    margin-left: 12px;
+
+}
+.button>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #262E48;
+    margin-right: 1px;
+}

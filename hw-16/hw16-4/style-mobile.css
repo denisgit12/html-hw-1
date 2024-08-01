@@ -1,0 +1,48 @@
+@media screen and  (min-width: 0) and (max-width: 480px) {
+    *{
+        border: 1px solid black;
+
+    }
+    .grid{
+        gap: .5vh;
+        height: 90vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr 1fr 1fr;
+        grid-template-areas:
+    'header header header '
+    'section-1 section-1 section-1'
+    'section-2 section-3 section-4'
+    'footer footer footer'
+
+    ;
+
+
+    }
+    header{
+        background: #A4A4A4;
+        grid-area: header;
+    }
+    .section-1{
+        background: #A4A4A4;
+        grid-area: section-1;
+    }
+    .section-2{
+        background: #A4A4A4;
+        grid-area: section-2;
+    }
+    .section-3{
+        background: #A4A4A4;
+        grid-area: section-3;
+    }
+    .section-4{
+        background: #A4A4A4;
+        grid-area: section-4;
+    }
+    footer{
+        background: #A4A4A4;
+        grid-area: footer;
+    }
+
+
+}
